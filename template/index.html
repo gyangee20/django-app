@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form action="/show/" method="post">
+	{% csrf=token %}
+	enter name: <input type="text" name="t1"><br>
+	enter email:<input type="text" name="t2"><br>
+	<input type="button" value="submit">
+</form>
+</body>
+</html>
